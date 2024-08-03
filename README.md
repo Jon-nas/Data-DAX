@@ -16,7 +16,7 @@ Esquema em estrela com o foco na análise dos dados de E-commerce:
     ° D_Descontos (ID_produto, Discount, Discount Band);
     ° D_Detalhes (*);
     ° D_Calendário – Criada por DAX com calendar();
-    ° F_Vendas (SK_ID , ID_Produto, Produto, Units Sold, Sales Price, Discount Band, Segment, Country, Salers, Profit, Date (campos)).
+    ° F_Vendas (SK_ID , ID_Produto, Produto, Units Sold, Sales Price, Discount Band, Segment, Country, Sales, Profit, Date (campos)).
 
 
 Ferramentas utilizadas:
