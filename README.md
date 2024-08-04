@@ -11,12 +11,12 @@ O processo consiste na criação das tabelas com base na tabela original. A part
 Sendo assim, a partir da tabela principal - Financials_origem (modo oculto – backup) serão criadas as tabelas:
 Esquema em estrela com o foco na análise dos dados de E-commerce:
 
-    ° D_Produtos (ID_produto, Produto, Média de Unidades Vendidas, Médias do valor de vendas, Mediana do valor de vendas, Valor máximo de Venda, Valor mínimo de Venda);
-    ° D_Produtos_Detalhes(ID_produtos, Discount Band, Sale Price, Units Sold, Manufactoring Price);
-    ° D_Descontos (ID_produto, Discount, Discount Band);
-    ° D_Detalhes (*);
-    ° D_Calendário – Criada por DAX com calendar();
-    ° F_Vendas (SK_ID , ID_Produto, Produto, Units Sold, Sales Price, Discount Band, Segment, Country, Sales, Profit, Date (campos)).
+    . D_Produtos (ID_produto, Produto, Média de Unidades Vendidas, Médias do valor de vendas, Mediana do valor de vendas, Valor máximo de Venda, Valor mínimo de Venda);
+    . D_Produtos_Detalhes(ID_produtos, Discount Band, Sale Price, Units Sold, Manufactoring Price);
+    . D_Descontos (ID_produto, Discount, Discount Band);
+    . D_Detalhes (*);
+    . D_Calendário – Criada por DAX com calendar();
+    . F_Vendas (SK_ID , ID_Produto, Produto, Units Sold, Sales Price, Discount Band, Segment, Country, Sales, Profit, Date (campos)).
 
 
 Ferramentas utilizadas:
